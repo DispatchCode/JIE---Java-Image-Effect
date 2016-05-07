@@ -12,7 +12,6 @@
 
 class SharpenFilter implements ImageFilter 
 {
-  // Variabili di istanza
   // ----------------------------------------------------------------------------
   public static final int FILTER_3X3 = 1; // Scelta kernel
   public static final int FILTER_5X5 = 2;
@@ -20,8 +19,8 @@ class SharpenFilter implements ImageFilter
   private int[][] kernel;    // kernel per filtro sharpen
   private int sum;
   // -----------------------------------------------------------------------------
-  
-  // Costruttori
+
+  //
   // -----------------------------------------------------------------------------
   SharpenFilter() {}
   

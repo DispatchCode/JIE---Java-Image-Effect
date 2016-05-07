@@ -25,7 +25,7 @@ import java.beans.PropertyVetoException;
 
 class FilterGUI 
 {
-  // Variabili di istanza
+  //
   // --------------------------------------------------------------------------
   private JFrame frame;                                  // Finestra
   private JPanel optionArea;                             // Pannello componenti
@@ -37,7 +37,7 @@ class FilterGUI
   private JCheckBox openNewImage;                        // Apertura immagine al termine
   // ---------------------------------------------------------------------------
   
-  // Costruttore
+  //
   // ----------------------------------------------------------------------------
   FilterGUI() 
   {

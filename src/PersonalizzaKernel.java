@@ -21,7 +21,7 @@ import java.io.*;
 
 class PersonalizzaKernel extends JDialog implements ActionListener,WindowListener 
 {
-  // Variabili d'istanza
+  //
   // ------------------------------------------------------------------------
   private String filterName;                 // Nome del filtro selezionato
   private JButton btnCreateMatrix, salva;    // Pulsante creazione matrice e salvataggio
@@ -32,7 +32,7 @@ class PersonalizzaKernel extends JDialog implements ActionListener,WindowListene
   // ------------------------------------------------------------------------
   
   
-  // Costruttore
+  //
   // ------------------------------------------------------------------------
   PersonalizzaKernel(String filterName,JFrame frame) 
   {

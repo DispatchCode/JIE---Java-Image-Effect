@@ -16,14 +16,14 @@ import java.io.*;
 class Kernel implements Serializable 
 {
   
-  // Variabili di istanza
+  //
   // ------------------------------------------------------------------------
   private String filterName, optionName;
   private int[][] kernel;
   // ------------------------------------------------------------------------
   
   
-  // Costruttore
+  //
   // ------------------------------------------------------------------------
   Kernel(String filterName, String optionName, int[][] kernel) 
   {

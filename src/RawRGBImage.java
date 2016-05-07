@@ -19,14 +19,14 @@ import javax.imageio.ImageIO;
 
 class RawRGBImage 
 {
-  // Variabili di istanza
+  //
   // ------------------------------------------------------------------------------------
   private final int width;
   private final int height;
   private final int[] pixels;   // pixels dell'immagine
   // ------------------------------------------------------------------------------------
   
-  // Costruttori
+  //
   // ------------------------------------------------------------------------------------
   RawRGBImage(int width, int height) 
   {
@@ -126,7 +126,7 @@ class RawRGBImage
   
   BufferedImage getBufferedImage() 
   {
-    BufferedImage bi = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+    BufferedImage bi = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
     bi.setRGB(0,0,width, height, pixels, 0, width);
     return bi;
   }

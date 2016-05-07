@@ -12,7 +12,7 @@
 
 class BlurFilter implements ImageFilter 
 {
-  // Variabili di istanza
+  //
   // ----------------------------------------------------------------------------
   private int[][] kernel;
   private int sum;
@@ -24,7 +24,7 @@ class BlurFilter implements ImageFilter
   public static final int FILTER_15X15 = 5;
   // ----------------------------------------------------------------------------
  
-  // Costruttori
+  //
   // ----------------------------------------------------------------------------
   BlurFilter(int filter) 
   {

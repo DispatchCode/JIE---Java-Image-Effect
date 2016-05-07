@@ -45,7 +45,7 @@ class BilinearInterpolationBayerDemosaicingFilter implements ImageFilter
 
   private boolean fastDemosaicing;
   
-  // Costruttori
+  //
   // -------------------------------------------------------------------------------------------
   BilinearInterpolationBayerDemosaicingFilter() 
   {

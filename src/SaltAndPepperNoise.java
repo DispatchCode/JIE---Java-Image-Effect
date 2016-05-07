@@ -16,7 +16,6 @@ import java.util.Random;
 
 class SaltAndPepperNoise implements ImageFilter
 {
-  // Variabili di istanza - 
   // ----------------------------------------------------------------------
   // Opzioni del filtro
   private final int CINQUE         = 5;
@@ -29,7 +28,7 @@ class SaltAndPepperNoise implements ImageFilter
   private int p;
   // -----------------------------------------------------------------------
   
-  // Costruttore
+  // 
   // -----------------------------------------------------------------------
   SaltAndPepperNoise(int p)
   {

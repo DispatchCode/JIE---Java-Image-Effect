@@ -20,7 +20,7 @@ import java.awt.Desktop;
 
 class ManageFilter
 {
-  // Variabili di istanza
+  //
   // --------------------------------------------------------------------------------------------
   private String[] filters;                 // Elenco dei filtri utilizzati
   private File inputFile, outputFile;
@@ -33,7 +33,7 @@ class ManageFilter
   private ArrayList<Kernel> tempKernel;
   // --------------------------------------------------------------------------------------------
   
-  // Costruttore
+  //
   // --------------------------------------------------------------------------------------------
   ManageFilter() 
   {

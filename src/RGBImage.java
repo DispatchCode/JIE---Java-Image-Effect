@@ -21,7 +21,7 @@ class RGBImage extends RawRGBImage
   private int[] newpixels;
   // ----------------------------------------------------------
   
-  // Costruttori
+  //
   // ----------------------------------------------------------
   RGBImage(String fileName) 
   {

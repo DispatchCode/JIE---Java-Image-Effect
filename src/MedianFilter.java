@@ -18,7 +18,7 @@ import java.util.Arrays;
 
 class MedianFilter implements ImageFilter 
 {
-  // Variabili di istanza
+  //
   // ------------------------------------------------------------------------------------
   public static final int FILTER_3X3 = 1;    // Dimensioni dei kernel
   public static final int FILTER_5X5 = 2;
@@ -29,7 +29,7 @@ class MedianFilter implements ImageFilter
   private int filter;
   // ------------------------------------------------------------------------------------
   
-  // Costruttori
+  //
   // ------------------------------------------------------------------------------------
   MedianFilter(int dimension) 
   {
